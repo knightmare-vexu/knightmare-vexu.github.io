@@ -1,9 +1,9 @@
 
 .header {
   background-color: #f1f1f1;
-  padding:none;
   text-align: center;
-  margin:top;
+  padding:0px;
+  margin:0px;
   width:max;
 }
 #navbar img{
@@ -16,16 +16,16 @@ right:30px;
   overflow: auto;
   background-color: #333;
   width:max;
+  margin:0px;
 }
 
 #navbar a {
-
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 20px;
+  padding: 14px 30px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -50,12 +50,32 @@ right:30px;
   top: 0;
   width: 100%;
 }
-
+#body{
+  margin:0px;
+}
 .sticky + .content {
   padding-top: 0px;
 }
-
+.head{
+  margin:0px;
+  padding:0px;
+}
 /*----------------------------------------------------------------------------------*/
 .slideshow{
-  margin:inherit;
+  margin:0px;
+  padding:0px;
+}
+.myslides{
+  margin:0px;
+  padding:0px;
+}
+.title{
+  font-family:"comic sans",cursive,sans-serif;
+  color:#FFC0CB;
+  font-size: 30px;
+  padding: 14px 10px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
