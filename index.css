@@ -70,12 +70,32 @@ right:30px;
   padding:0px;
 }
 .title{
+  font-weight:bold;
   font-family:"comic sans",cursive,sans-serif;
-  color:#FFC0CB;
+  background-clip: text;
   font-size: 30px;
   padding: 14px 10px;
   position: absolute;
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: colorRotate 4s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #f5d000 ;
+  }
+  10% {
+    color: #c7a900 ;
+  }
+  50% {
+    color: #947e00 ;
+  }
+  75% {
+    color: #3c341f;
+  }
+  100% {
+    color:#000000;
+  }
 }
