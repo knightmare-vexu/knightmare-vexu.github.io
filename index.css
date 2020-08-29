@@ -99,3 +99,12 @@ right:30px;
     color:#000000;
   }
 }
+/*----------------------------------------------------------------------------*/
+.header1{
+  font-size: 40px;
+  font-family:"Rockwell Extra Bold",Bold,sans-serif;
+}
+.p1{
+  font-size: 20px;
+  font-family:"Rockwell Extra Bold",bold,sans-serif;
+}
