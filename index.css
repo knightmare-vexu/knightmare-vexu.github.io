@@ -109,26 +109,54 @@ right:30px;
   font-family:"Rockwell Extra Bold",bold,sans-serif;
 }
 /***********************************OFFICERS***********************************/
+.officers {
+  text-align: center;
+  padding:0px;
+  margin:0px;
+  width:max;
+}
 .card {
   width:max;
   padding: 20 150px;
-  float: left;
+
 }
+#officers {
+    display: inline;
+    overflow: auto;
+    font-size: auto;
+    padding: 14px 30px;
+}
+
 #officers img {
-    width:max;
+
+    width:200px;
+    height:200px;
     border-radius: 100%;
-    float: center;
+    font-size: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 /********************************media*****************************************/
 #mediaBar {
   float: center;
   overflow: auto;
   background-color: #333;
   width:max;
+  height:100px;
   margin:0px;
 }
+.MediaColor{
+  color: #f2f2f2;  
+}
+#mediaBar a{
+  color: #f2f2f2;
+  font-size: 30px;
+  width:100px;
+  height:20px;
+  border-radius: 50%;
+}
 .media{
-   float: center;
-  width:max;
+  float: center;
   margin:0px;
 }
