@@ -1,4 +1,4 @@
-
+/****************************************navbar*******************************/
 .header {
   background-color: #f1f1f1;
   text-align: center;
@@ -60,7 +60,7 @@ right:30px;
   margin:0px;
   padding:0px;
 }
-/*----------------------------------------------------------------------------------*/
+/********************************slides****************************************/
 .slideshow{
   margin:0px;
   padding:0px;
@@ -99,7 +99,7 @@ right:30px;
     color:#000000;
   }
 }
-/*----------------------------------------------------------------------------*/
+/********************************Welcome***************************************/
 .header1{
   font-size: 40px;
   font-family:"Rockwell Extra Bold",Bold,sans-serif;
@@ -107,4 +107,28 @@ right:30px;
 .p1{
   font-size: 20px;
   font-family:"Rockwell Extra Bold",bold,sans-serif;
+}
+/***********************************OFFICERS***********************************/
+.card {
+  width:max;
+  padding: 20 150px;
+  float:left;
+}
+#officers img {
+    width:max;
+    border-radius: 100%;
+    float: center;
+}
+/********************************media*****************************************/
+#mediaBar {
+  float: center;
+  overflow: auto;
+  background-color: #333;
+  width:max;
+  margin:0px;
+}
+.media{
+   float: center;
+  width:max;
+  margin:0px;
 }
