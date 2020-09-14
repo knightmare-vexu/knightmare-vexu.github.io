@@ -15,12 +15,12 @@
       <a href="https://knightconnect.campuslabs.com/engage/organization/kec/contact">CONTACT US</a>
 
 <script>//sticky
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {scroll()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function scroll() {
 if (window.pageYOffset >= sticky) {
   navbar.classList.add("sticky")
 } else {
